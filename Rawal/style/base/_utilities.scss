@@ -1,0 +1,21 @@
+.u-center-text {
+  text-align: center;
+}
+
+.u-margin-bottom {
+  margin-bottom: 8rem;
+  @include respond(tab-port) {
+    margin-bottom: 6rem;
+  }
+}
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem;
+}
+
+.u-margin-top {
+  margin-top: 10rem;
+  text-align: center;
+}
+.u-margin-medium {
+  margin-bottom: 4rem;
+}
