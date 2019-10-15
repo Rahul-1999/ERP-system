@@ -73,6 +73,7 @@
     color: $color-white;
   }
   &:active {
+    background-color: $color-primary;
     transform: translateY(0);
     box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
   }
